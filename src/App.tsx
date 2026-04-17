@@ -409,7 +409,7 @@ const Step6 = ({ formData }: any) => {
   const handleWhatsApp = () => {
     const text = `Olá! Fiz uma simulação no site da CR Representações e gostaria de falar com um especialista.\n\n*Resumo da Simulação:*\nAlvo: ${formData.target}\nCrédito: ${formatCurrency(formData.credit)}\nEntrada: ${formatCurrency(formData.entry)}\nParcela: ${formatCurrency(formData.installment)}\nNome: ${formData.name}\nWhatsApp: ${formData.phone}${formData.referredBy ? `\nIndicado por: ${formData.referredBy}` : ''}`;
     const encodedText = encodeURIComponent(text);
-    window.open(`https://wa.me/5581994448834?text=${encodedText}`, '_blank');
+    window.open(`https://wa.me/5587999221384?text=${encodedText}`, '_blank');
   };
 
   return (
